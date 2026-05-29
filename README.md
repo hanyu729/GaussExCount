@@ -6,10 +6,13 @@ Recently, zero-shot counting has gained increasing attention, where text prompts
 | ![Image 1](https://github.com/hanyu729/GaussExCount/raw/main/Figs/fig1.png) |
 |--------------------------------------------|
 | *Figure 1: Visualization of multi-class counting results on the FSC-147 dataset. From top to bottom are the results produced by CountSE, T2ICount, and GaussExCount, respectively.*       |
+
 As illustrated in the example containing cans and tomatoes, although the two object categories exhibit significant scale differences, they still share similar colors and local texture patterns, which can easily lead to category confusion. Nevertheless, GaussExCount is still able to accurately focus on the target regions corresponding to the text prompts while effectively suppressing interference from non-target categories. 
+
 | ![Image 2](https://github.com/hanyu729/GaussExCount/raw/main/Figs/fig2.png) |
 |--------------------------------------------|
 | *Figure 2: Visualization of counting results on the AdaFishCount-Dataset and the ShanghaiTech Part A dataset. From top to bottom are the results produced by CountSE, T2ICount, and GaussExCount, respectively.*       |
+
 In the high-density scenes of ShanghaiTech Part A, although a large number of distant persons occupy only a few pixels and are accompanied by severe occlusions and scale variations, GaussExCount still maintains reliable responses to these small-scale targets and achieves satisfactory counting accuracy. Furthermore, in the cage scenario of the AdaFishCount-Dataset, GaussExCount is able to effectively distinguish target fish from complex underwater backgrounds, whereas T2ICount tends to misclassify extensive background regions as target objects, resulting in severe counting errors.
 
 # 3. Model

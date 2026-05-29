@@ -16,6 +16,6 @@ As illustrated in the example containing cans and tomatoes, although the two obj
 In the high-density scenes of ShanghaiTech Part A, although a large number of distant persons occupy only a few pixels and are accompanied by severe occlusions and scale variations, GaussExCount still maintains reliable responses to these small-scale targets and achieves satisfactory counting accuracy. Furthermore, in the cage scenario of the AdaFishCount-Dataset, GaussExCount is able to effectively distinguish target fish from complex underwater backgrounds, whereas T2ICount tends to misclassify extensive background regions as target objects, resulting in severe counting errors.
 
 # 3. Model
-**For training/inference, please go to [here](https://github.com/hanyu729/GaussExCount/raw/main/GaussExCount/readme)**
+**For training/inference, please go to [here](https://github.com/hanyu729/GaussExCount/raw/main/GaussExCount/readme.md)**
 
 
